@@ -135,3 +135,41 @@ B.Tech - Computer Science and Engineering (Data Science)
 ## Project Purpose
 
 Developed as a practical deep learning and computer vision project demonstrating model training, evaluation, and application deployment.
+
+---
+
+## Application Screenshots
+
+### Streamlit Application Home Page
+
+![Emotion Recognition Home Page](screenshots/home.png)
+
+### Image-Based Emotion Prediction
+
+The system detects a face and displays the predicted facial expression with a confidence score.
+
+![Image Emotion Prediction](screenshots/image_prediction.png)
+
+### Real-Time Webcam Emotion Detection
+
+The application supports webcam-based facial expression predictions using OpenCV and Streamlit-WebRTC.
+
+![Live Emotion Detection](screenshots/live_detection.png)
+
+---
+
+## Model Evaluation Visualizations
+
+### Confusion Matrix
+
+The confusion matrix visualizes classification results across the seven facial expression categories.
+
+![CNN Confusion Matrix](screenshots/confusion_matrix.png)
+
+### Training and Validation Accuracy
+
+![Training Accuracy](screenshots/accuracy_graph.png)
+
+### Training and Validation Loss
+
+![Training Loss](screenshots/loss_graph.png)
