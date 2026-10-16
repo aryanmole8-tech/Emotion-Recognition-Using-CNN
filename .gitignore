@@ -1,0 +1,34 @@
+﻿# Datasets
+train.csv
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Conda
+conda-meta/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Environment variables
+.env
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Model files are intentionally included
+# *.keras is NOT ignored
+
+# Local test images - review before publishing
+test_face.jpeg
+test_face2.jpeg
